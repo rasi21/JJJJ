@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1610089252811-33efbe43e30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmlnaHQlMjB2aWV3fGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+    max-width: 100%;
+    width: 1000px;
+    margin: auto;
+    height: 500px;
+  
+}
+h1{
+    text-align: center;
+    margin: 100px;
+}
+.col-1{
+        
+        
+    padding: 25px;
+    
+   
+    color: white;
+    width: 60%;
+    
+    
+    
+    .div{
+        padding: 30px;
+        width: 80%;
+        span{
+            margin: 10px;
+            color: slategray;
+        }
+        
+        .divtext{
+            margin-left: 30px;
+            margin-top: 5px;
+        }
+    }
+    h2{
+        margin-left: 50px;
+        
+     }
+
+}
+
+.col-2{
+    border-radius: 10px;
+    width: 40%;
+    background-color: white;
+    height: 600px;
+    color: black;
+    padding: 25px;
+    .form{
+        textarea{
+            padding: 10px;
+            width: 90%;
+            height: 100px;
+            resize: none;
+            margin-top: 20px;
+            border: 1px solid rgba(134, 134, 134, 0.13);
+        }
+        
+
+
+
+        input{
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid rgba(134, 134, 134, 0.13);
+        }
+        button{
+            margin-top: 50px;
+            padding: 15px 20px;
+            background-color: rgba(4, 66, 102, 0.692);
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+}
+i{
+    font-size: 20px;
+}
+h1{
+    color: white;
+}
+
+@media (max-width:800px){
+
+    
+    .col-1{
+        width: 100%;
+        
+       
+        font-size: 30px;
+    }
+    .col-2{
+        max-width: 100%;
+        width: 100%;
+        input{
+            height: 50px;
+        }
+    }
+    
+}
+@media (max-width:400px){
+
+    
+    .col-1{
+        width: 100%;
+        
+       
+        font-size: 10px;
+    }
+    .col-2{
+        max-width: 100%;
+        width: 100%;
+        input{
+            height: 50px;
+        }
+    }
+    h1{
+        margin: 0;
+    }
+    
+}
